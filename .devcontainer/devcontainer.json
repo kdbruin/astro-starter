@@ -17,9 +17,11 @@
 	"forwardPorts": [
 		4321
 	],
-	"otherPortsAttributes": {
-		"label": "Astro Starter",
-		"onAutoForward": "openBrowser"
+	"portsAttributes": {
+		"4321": {
+			"label": "Astro Starter",
+			"onAutoForward": "openBrowser"
+		}
 	},
 	"customizations": {
 		"vscode": {
